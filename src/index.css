@@ -1,3 +1,15 @@
+:root{
+  --primary-clr: #0000ff;
+  --gradiant-clr: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +23,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app_wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+.app {
+  max-width: 800px;
+  flex-basis: 100%;
+}
+
+.input_field{
+  width: 100%;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  display: block;
+  border-radius: 0.5em;
+  border: 1px solid #808080;
+}
+

@@ -1,0 +1,68 @@
+.auth_screen_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.auth_card{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #808080;
+    border-radius: 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth_card > h3 {
+    margin: 1em 0;
+    background: var(--gradiant-clr);
+    color: transparent;
+    background-clip: text;
+}
+
+
+.input_field_error {
+    color: #ff0000;
+    /* margin: 0 1em 1.5em 1em; */
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.auth_screen_button,.login, .register{
+    width: 100%;
+    padding: 0.7em;
+    margin: 1em 0;
+    color: #ffff;
+    background-color: green;
+    border-radius: 0.5em;
+    border: 0;
+}
+
+.register{
+    background-color: #0000ff;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+
+.auth_status{
+    position: absolute;
+    padding: 0.3em;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    color: #ffff;
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(35px);
+}
+
+#errorToggle:checked + .auth_status {
+    transform: translateY(0);
+}

@@ -1,0 +1,40 @@
+
+.home_screen_title{
+    background: var(--gradiant-clr);
+    color: transparent;
+    background-clip: text;
+    margin: 0.5em 0;
+}
+
+
+.todo_Tile_wrapper {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #808080;
+    max-width: 300px;
+}
+.add_todo_button {
+    padding: 1em 2em;
+    background-color: #0000ff;
+    border: 0;
+    border-radius: 0.5em;
+    color: #ffff;
+}
+
+
+.markAsDone_btn, .delete_btn{
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #808080;
+    padding: 0.5em 1.5em;
+    margin-top: 1em;
+    margin-right: 2em;
+    border-radius: 0.5em;
+}
+
+.delete_btn{
+    border: 0;
+    background-color: #ff0000;
+    color: #ffff;
+}
