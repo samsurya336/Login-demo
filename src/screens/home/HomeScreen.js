@@ -10,7 +10,7 @@ export default function HomeScreen() {
     const titleRef = useRef('')
 
     return (
-        <div style={{marginTop:'50px'}}>
+        <div style={{marginTop:'50px',padding:'1em'}}>
 
             <h1 className='home_screen_title'>To Do List </h1>
 
